@@ -14,6 +14,8 @@ class test_main(unittest.TestCase):
       self.assertEqual(main.Subtract(10,5),5)
    def testSub2(self):
       self.assertEqual(main.Subtract(5,10),-5)
+   def testSub2(self):
+      self.assertEqual(main.Subtract(150,10),140)   
    def testPrint(self):
       self.assertEqual(main.PrintTest(),"Hello")  
 if __name__ == '__main__':
